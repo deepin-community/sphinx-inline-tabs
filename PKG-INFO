@@ -1,3 +1,21 @@
+Metadata-Version: 2.1
+Name: sphinx_inline_tabs
+Version: 2023.4.21
+Summary: Add inline tabbed content to your Sphinx documentation.
+Home-page: https://github.com/pradyunsg/sphinx-inline-tabs
+Author: Pradyun Gedam
+Author-email: mail@pradyunsg.me
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: sphinx >= 3
+Requires-Dist: myst-parser ; extra == "doc"
+Requires-Dist: furo ; extra == "doc"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: pytest-xdist ; extra == "test"
+Provides-Extra: doc
+Provides-Extra: test
+
 # Sphinx Inline Tabs
 
 ![demo image](https://raw.githubusercontent.com/pradyunsg/sphinx-inline-tabs/main/docs/_static/demo.png)
@@ -38,3 +56,4 @@ extensions = [
 sphinx-inline-tabs is a volunteer maintained open source project, and we welcome contributions of all forms.
 
 The [Code of Conduct](CODE_OF_CONDUCT.md) applies within all community spaces. If you are not familiar with our Code of Conduct policy, take a minute to read the policy before starting with your first contribution.
+

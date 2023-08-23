@@ -1,5 +1,18 @@
-template-repository (1.0-1) unstable; urgency=medium
+sphinx-inline-tabs (2023.4.21-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release
+  * Declare compliance with Policy 4.6.2, no changes needed
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- James McCoy <jamessan@debian.org>  Mon, 12 Jun 2023 17:44:47 -0400
+
+sphinx-inline-tabs (2022.1.2~b11-2) unstable; urgency=medium
+
+  * No change upload for testing migration
+
+ -- James McCoy <jamessan@debian.org>  Thu, 01 Dec 2022 19:25:16 -0500
+
+sphinx-inline-tabs (2022.1.2~b11-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #992745)
+
+ -- James McCoy <jamessan@debian.org>  Sat, 12 Nov 2022 20:33:43 -0500
